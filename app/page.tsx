@@ -1,6 +1,7 @@
 import StyledWithoutDrag from "@/animations/appstore-animations/appstore-game-card-expansible";
 import SharedLayout from "@/animations/appstore-animations/appstore-games-cards";
 import ClipPathButton from "@/animations/buttons/hold-button";
+import FamilyDrawer from "@/animations/crossfade/crossfade";
 import DragExample from "@/animations/drag-and-drop/drag-and-drop-ball";
 import FeedbackComponentCSS from "@/animations/feedback/feedback";
 import MultiStepComponent from "@/animations/feedback/multistep-feedback";
@@ -20,6 +21,7 @@ export default function Home() {
       <TrashAnimation />
       <MotionValueBasics />
       <Graph />
+      <FamilyDrawer />
     </>
   );
 }
