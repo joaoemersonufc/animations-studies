@@ -1,9 +1,9 @@
 "use client";
 
-import "@/app/globals.css";
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import { useOnClickOutside } from "usehooks-ts";
+
 import "./appstore.css";
 
 function Card({ card, setActiveCard }) {
